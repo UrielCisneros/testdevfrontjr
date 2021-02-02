@@ -1,29 +1,48 @@
-# README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+# EVALUACIÓN TÉCNICA NUXIBA #
 
-### What is this repository for? ###
+Prueba: **DESARROLLADOR JR**
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+Deadline: **1 día**
 
-### How do I get set up? ###
+Nombre: 
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+### Clona y crea tu repositorio para la evaluación ###
+* Clona este repositorio en tu máquina local
+* Crear un repositorio público en tu cuenta personal de GitHub, BitBucket o Gitlab
+* Cambia el origen remoto para que apunte al repositorio público que acabas crear en tu cuenta
+* Coloca tu nombre en este archivo README.md y realiza un push al repositorio remoto
+### Prueba  ###
+* Lee la documentación del API de [JSONPlaceholder](http://jsonplaceholder.typicode.com/guide/) y crea una aplicación en el lenguaje de tu preferencia que realice lo siguiente:
+	* Listar a los 10 usuarios
+	* Al seleccionar un usuario muestra algunos campos con su información(name, username, email, etc.) y coloca 2 botones para poder seleccionar los "posts" y "todos" que estén relacionados con el usuario.
+	* Al dar click en el botón de "posts" muestra todas las publicaciones que ha realizado el usuario, cada publicación deberá tener anidados sus comentarios
+	* Al dar click en el botón de "todos" muestra las tareas del usuario ordenadas por la propiedad "id" de mayor a menor
+	* En la sección de "todos", crea un formulario para poder agregar una nueva tarea al usuario, este debe de contener una caja de texto (title), un checkbox (completed) y un botón de guardar. Al dar click en el botón, manda la información necesaria al API con el método HTTP correcto para que la tarea quede guardada
 
-### Contribution guidelines ###
 
-* Writing tests
-* Code review
-* Other guidelines
+> *Nota: al hacer la petición de la nueva tarea, el API no la guardará y solo regresará un objeto JSON con la propiedad **id** de la nueva tarea agregada (id: 201), esto indica que todo se realizó de forma correcta*
 
-### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+Algunos endpoints que puedes utilizar:
+
+* https://jsonplaceholder.typicode.com/users 
+* https://jsonplaceholder.typicode.com/users/(userId)
+* https://jsonplaceholder.typicode.com/users/(userId)/posts
+* https://jsonplaceholder.typicode.com/post/(postId)/comments
+* https://jsonplaceholder.typicode.com/users/(userId)/todos
+
+Objeto que espera el servidor para guardar la nueva tarea:
+
+
+```javascript
+{
+  "userId": <int>,
+  "title": <string>
+  "completed": <bool>
+}
+```
+
+**PLUS: Si conoces algún patrón de diseño de software no dudes en usarlo**
+
+Compártenos el link a tu repositorio remoto 😊
