@@ -7,12 +7,15 @@ Deadline: **1 día**
 
 Nombre: 
 
-### Clona y crea tu repositorio para la evaluación ###
+------
+## Clona y crea tu repositorio para la evaluación ##
 * Clona este repositorio en tu máquina local
 * Crear un repositorio público en tu cuenta personal de GitHub, BitBucket o Gitlab
 * Cambia el origen remoto para que apunte al repositorio público que acabas crear en tu cuenta
 * Coloca tu nombre en este archivo README.md y realiza un push al repositorio remoto
-### Prueba  ###
+
+------
+## Prueba 1 ##
 * Lee la documentación del API de [JSONPlaceholder](http://jsonplaceholder.typicode.com/guide/) y crea una aplicación en el lenguaje de tu preferencia que realice lo siguiente:
 	* Listar a los 10 usuarios
 	* Al seleccionar un usuario muestra algunos campos con su información(name, username, email, etc.) y coloca 2 botones para poder seleccionar los "posts" y "todos" que estén relacionados con el usuario.
@@ -45,4 +48,18 @@ Objeto que espera el servidor para guardar la nueva tarea:
 
 **PLUS: Si conoces algún patrón de diseño de software no dudes en usarlo**
 
-Compártenos el link a tu repositorio remoto 😊
+------
+## Prueba 2 ##
+
+Para esta prueba será necesario agregar al repositorio las sentencias de SQL con las que se creo el esquema(base de datos y tablas) y las consultas realizadas para responder a los siguientes puntos:
+
+* Construye una base de datos y crea las siguientes tablas dentro de ella:
+	* logDial con las siguientes columnas
+		* idLlamada varchar(10)
+		* fechaDeLlamada datetime(50)
+		* tiempo varchar(10)
+		* idLlamada varchar(10)
+		* idLlamada varchar(10)
+
+------
+#### Compártenos el link a tu repositorio remoto #### 😊
