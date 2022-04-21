@@ -16,7 +16,7 @@ Nombre:
 
 ------
 ## Prueba 1 ##
-* Lee la documentación del API de [JSONPlaceholder](http://jsonplaceholder.typicode.com/guide/) y crea una API RESTful o una aplicación de escritorio (dentro del directorio **Prueba_1**) en .NET que realice lo siguiente:
+* Lee la documentación del API de [JSONPlaceholder](http://jsonplaceholder.typicode.com/guide/) y crea una aplicación web (dentro del directorio **Prueba_1**) en ReactJS (usando **Hooks**) que realice lo siguiente:
 	* Listar a los 10 usuarios **_(10 puntos)_**
 	* Al seleccionar un usuario muestra algunos campos con su información(name, username, email, etc.) y coloca 2 botones para poder seleccionar los "posts" y "todos" que estén relacionados con el usuario. **_(15 puntos)_**
 	* Al dar click en el botón de "posts" muestra todas las publicaciones que ha realizado el usuario, cada publicación deberá tener anidados sus comentarios. **_(15 puntos)_**
