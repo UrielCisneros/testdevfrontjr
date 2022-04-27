@@ -18,8 +18,8 @@ Nombre:
 ## Prueba ##
 * Lee la documentación del API de [JSONPlaceholder](http://jsonplaceholder.typicode.com/guide/) y crea una aplicación web (**Prueba**) en ReactJS (usando **Hooks**) que realice lo siguiente:
 	* Obtén los 10 usuario de la API y guárdalos en el estado global de la aplicación (usando Redux como dependencia). **_(10 puntos)_**
-	* Al seleccionar un usuario muestra algunos campos con su información (name, username, email, etc.) y coloca 2 botones para poder seleccionar los "posts" y "todos" que estén relacionados con el usuario. **_(10 puntos)_**
-	* Al dar click en el botón de "posts" por medio de una acción de Redux se deberán mostrar todas las publicaciones que ha realizado el usuario, cada publicación deberá tener anidados sus comentarios. **_(10 puntos)_**
+	* Al seleccionar un usuario muestra algunos campos con su información (name, username, email, etc.) y coloca 2 botones para poder seleccionar los "posts" y "todos" que estén relacionados con el usuario. **_(15 puntos)_**
+	* Al dar click en el botón de "posts" por medio de una acción de Redux se deberán mostrar todas las publicaciones que ha realizado el usuario, cada publicación deberá tener anidados sus comentarios. **_(15 puntos)_**
 	* Al dar click en el botón de "todos" por medio de una acción de Redux se deberán mostrar las tareas del usuario ordenadas por la propiedad "id" de mayor a menor. **_(15 puntos)_**
 	* En la sección de "todos", crea un formulario para poder agregar una nueva tarea al usuario, este debe de contener una caja de texto (title), un checkbox (completed) y un botón de guardar. Al dar click en el botón, manda la información necesaria al API con el método HTTP correcto para que la tarea quede guardada. **_(25 puntos)_**
 	* Apóyate de cualquier librería de componentes que conozcas para realizar la interfaz.  **_(10 puntos)_**
