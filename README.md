@@ -5,7 +5,7 @@ Prueba: **DESARROLLADOR JR**
 
 Deadline: **1 día**
 
-Nombre: Urie Cisneros Torres
+Nombre: Uriel Cisneros Torres
 
 ------
 ## Clona y crea tu repositorio para la evaluación ##
